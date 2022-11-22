@@ -4,7 +4,7 @@ void createNodeList(int n)
 {
     int i;
     int num;;
-    head = (struct node *)malloc(sizeof(struct node));
+    head = (list_t *)malloc(sizeof(list_t));
 
     if(head == NULL) //check whether the fnnode is NULL and if so no memory allocation
     {
@@ -33,10 +33,10 @@ void createNodeList(int n)
                 printf(" Input data for node %d : ", i);
                 scanf(" %d", &num);
 
-                newnode->num = num;      // links the num field of fnNode with num
-                newnode->nextptr = NULL; // links the address field of fnNode with NULL
+                newnode->num = num;      // links the num field of newnode with num
+                newnode->nextptr = NULL; // links the address field of newnode with NULL
 
-                temp->nextptr = newnode; // links previous node i.e. tmp to the fnNode
+                temp->nextptr = newnode; // links previous node i.e. temp to the newnode
                 temp = temp->nextptr;
             }
         }
