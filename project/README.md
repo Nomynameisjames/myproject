@@ -1,13 +1,13 @@
 		PROJECT 
 this directory contains practice projects from my ALX experience, revisiting and further solidifying certain topics treated in C and python programing languages
 
-		basic overview of topics to handled
+		{basic overview of topics handled}
 
 1. C-> Function Pointers
 2. C-> Makefiles
 3. C-> Dynamic Libraries
 
-		C-> DATA STRUCTURES AND ALGORITHM
+		{C-> DATA STRUCTURES AND ALGORITHM}
 1. linked list (singly and double) 
 2. stacks, queues (LIFO, FIFO)
 3. hash tables
@@ -17,7 +17,7 @@ this directory contains practice projects from my ALX experience, revisiting and
 
 
 
-		PYTHON
+		{PYTHON}
 1. import modules
 2. Data structure (list, tuples, dict)
 3. exception handling

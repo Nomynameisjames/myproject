@@ -25,6 +25,11 @@ int main()
     printf("insertion after head node\n");
     printf("\n-----------------------------------\n");
     displayList();
+
+    deletehead(temp);
+    printf("list after node is deleted\n");
+    printf("\n------------------------------------\n");
+    displayList();
     return 0;
 } 
 

@@ -15,4 +15,5 @@ void createNodeList(int n); // function to create the list
 void displayList();         // function to display the list
 void push(list_t **head_ref, int new_data); // function to insert newnode at head
 void insertAfter(list_t *prev_node, int new_data);
+void deletehead(list_t *temp);
 #endif
