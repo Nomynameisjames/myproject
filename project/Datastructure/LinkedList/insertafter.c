@@ -2,8 +2,12 @@
 
 /* Given a node prev_node, insert a new node after the given
 prev_node */
-void insertAfter(list_t *prev_node, int new_data)
+void insertAfter(list_t *prev_node)
 {
+
+	int new_data;
+	printf("enter item to be inserted after the fist node: \n");
+	scanf("%d", &new_data);
 	/*1. check if the given prev_node is NULL */
 	if (prev_node == NULL) {
 		printf("the given previous node cannot be NULL");

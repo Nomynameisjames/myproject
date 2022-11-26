@@ -1,15 +1,13 @@
 #include "list.h"
 
-void deletehead(list_t *temp)
+void deletehead(list_t **head_ref, int key)
 {
 
 
-	if (head->nextptr  == NULL)
-		printf("list is empty");
-	else
-	{
-		temp = head;
-		temp = head->nextptr;
+	if ((*head_ref)->num  == key)
+		temp = (*head_ref);
+		*head_ref = (*head_ref)->nextptr;
 		free(temp);
-	}
+
+
 }
